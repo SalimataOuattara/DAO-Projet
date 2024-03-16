@@ -13,7 +13,7 @@ async function main() {
   }
 
 
-  const TableGov = await ethers.getContractFactory("TableGov");
+  const TableGov = await ethers.getContractFactory("TablelandTables");
   const tableGov = await upgrades.deployProxy(TableGov, [token], {
     kind: "uups",
   });

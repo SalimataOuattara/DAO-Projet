@@ -1,6 +1,9 @@
 // require('dotenv').config();
 // require("@nomiclabs/hardhat-ethers");
 // require("@nomiclabs/hardhat-etherscan");
+
+
+
 import { HardhatUserConfig, extendEnvironment, task } from "hardhat/config";
 import { HardhatRuntimeEnvironment } from "hardhat/types";
 import "@openzeppelin/hardhat-upgrades";
@@ -55,7 +58,7 @@ const config: HardhatUserConfig = {
     },
   },
   proxies: {
-    localhost: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+    localhost: "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
   },
 };
 
